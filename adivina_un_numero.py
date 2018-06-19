@@ -19,7 +19,7 @@ else:
             if user_number == number_to_guess:
                 print("Has ganado")
             else:
-                user_number = int(input("No es correcto, elige otro número: " ))
+                user_number = int(input("No es correcto, elige otro número: "))
 
                 if user_number == number_to_guess:
                     print("Has ganado")
